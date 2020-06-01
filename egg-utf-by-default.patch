@@ -1,0 +1,11 @@
+--- tcl.c	2018-12-27 13:51:16.000000000 -0500
++++ tcl.c.new	2020-06-01 00:21:06.499396955 -0400
+@@ -689,7 +689,7 @@
+   }
+ 
+   if (encoding == NULL) {
+-    encoding = "iso8859-1";
++    encoding = "utf-8";
+   }
+ 
+   Tcl_SetSystemEncoding(NULL, encoding);
